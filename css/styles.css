@@ -92,6 +92,7 @@ color: #404BBF;
 
  /* region hero */
 .hero {
+    
     background: #2e2f42;
 }
 
@@ -100,7 +101,7 @@ color: #404BBF;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
+    
     color: #fff;
     background: #2e2f42;
 }
