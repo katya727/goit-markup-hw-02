@@ -34,7 +34,7 @@ color: #4d5ae5;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -175,7 +175,7 @@ color: #404BBF;
 }
 
 .section-ph-list {
-    background: #fff;
+    background-color: #FFFFFF;
 }
 
 .section-ph-item {
