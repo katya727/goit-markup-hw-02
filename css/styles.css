@@ -1,0 +1,260 @@
+ body{
+    font-family: "Roboto", sans-serif;
+    background: #fff;
+    color: #2e2f42;
+ }
+ 
+ a{
+    text-decoration: none;
+}
+ul, ol {
+    list-style-type: none;
+}
+button{
+    cursor: pointer;
+}
+/* region header */
+.header {}
+
+.nav-header {}
+
+.logo {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.logo-style {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
+
+.header-adress{}
+
+.nav-list-header {}
+
+.nav-header-item {}
+
+.item-nav-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42 ;
+}
+
+.item-nav-link:hover,
+.item-nav-link:focus
+{
+color: #404BBF;
+}
+
+ 
+
+.contacts-info-header {
+    
+}
+
+.email-link {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;}
+
+.contacts-info{}
+
+.contacts-info-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+ .email-link:hover,
+ .email-link:focus{
+    color: #404BBF;
+ }
+ .contacts-info-link:hover,
+ .contacts-info-link:focus
+ {
+    color: #404BBF;
+ }
+ /* end region header */
+
+ /* region hero */
+.hero {
+    background: #2e2f42;
+}
+
+.hero-titel {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    background: #2e2f42;
+}
+
+.hero-button {
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+}
+.hero-button:hover,
+.hero-button:focus{
+    color: #404BBF;
+    beckground-color: #4D5AE5
+ 
+}
+/*  end region hero */
+
+ /* region section */
+.section-1 {
+    background-color: #fff;
+}
+
+.section-title-1 {}
+
+.section-list-1 {}
+
+.section-list-item-1 {}
+
+.section-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.section-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* end region section */
+
+/* region section photo */
+.section-profile-photo{
+   
+}
+.section-photo {
+    background: #f4f4fd;}
+
+.section-ph-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    
+    color: #2e2f42;
+}
+
+.section-ph-list {}
+
+.section-ph-item {}
+
+.section-ph-item-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    
+    color: #2e2f42;
+}
+
+.section-item-role {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    
+    color: #434455;
+}
+/* end region section photo */
+
+/* region portfolio */
+
+.portfolio {}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+        
+    color: #2e2f42;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-item-card {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* end region portfolio */
+
+/* region footer */
+.footer {
+    background: #2e2f42;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif:
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-style-light {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+    
+}
+
+.footer-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+/* end region footer */
