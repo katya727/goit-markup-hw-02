@@ -1,7 +1,7 @@
  body{
     font-family: "Roboto", sans-serif;
     background: #fff;
-    color: #2e2f42;
+    color: #434455
  }
  
  a{
@@ -19,6 +19,7 @@ button{
 .nav-header {}
 
 .logo {
+font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 1.16;
@@ -37,7 +38,9 @@ color: #4d5ae5;
     color: #2e2f42;
 }
 
-.header-adress{}
+.header-adress{
+    font-style: normal;
+}
 
 .nav-list-header {}
 
@@ -101,7 +104,7 @@ color: #404BBF;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    
+    text-align: center;
     color: #fff;
     background: #2e2f42;
 }
@@ -118,7 +121,8 @@ color: #404BBF;
 .hero-button:hover,
 .hero-button:focus{
     color: #404BBF;
-    beckground-color: #4D5AE5
+    background-color: #404BBF
+   
  
 }
 /*  end region hero */
@@ -152,40 +156,50 @@ color: #404BBF;
 /* end region section */
 
 /* region section photo */
-.section-profile-photo{
-   
-}
+
 .section-photo {
-    background: #f4f4fd;}
+    background: #f4f4fd;
+     }
 
 .section-ph-title {
+    
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    
+    text-align: center;
     color: #2e2f42;
 }
 
-.section-ph-list {}
+.section-ph-list {
+    background: #fff;
+}
 
-.section-ph-item {}
+.section-ph-item {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
 .section-ph-item-name {
+    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    
     color: #2e2f42;
+
 }
 
 .section-item-role {
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
     color: #434455;
 }
 /* end region section photo */
@@ -195,9 +209,11 @@ color: #404BBF;
 .portfolio {}
 
 .portfolio-title {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
         
     color: #2e2f42;
@@ -231,18 +247,13 @@ color: #404BBF;
 }
 
 .footer-logo {
-    font-family: "Raleway", sans-serif:
-    font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
 }
 
 .logo-style-light {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
